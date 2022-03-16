@@ -1,0 +1,94 @@
+body,h1 {
+    font-family: "Raleway", sans-serif
+}
+body, html {
+    height: 100%
+}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+body{margin:0}
+
+.bgimg {
+  background-image: url('https://images.unsplash.com/photo-1552186120-96a5dbdea6e4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.display-container{
+    position:relative;
+}
+.animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.text-white{color:#fff}
+.display-topleft{position:absolute;left:0;top:0}
+.display-topright{position:absolute;right:0;top:0}
+.padding-large{padding:12px 24px}
+.xlarge{font-size:40px; color: #357C3C; font-weight: bold;}
+.display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.jumbo{font-size:64px;}
+.border-grey{border-color:#9e9e9e}
+.animate-top{
+    position:relative;animation:animatetop 0.4s}
+    @keyframes
+     animatetop{
+         from{top:-300px;opacity:0}
+          to{top:0;opacity:1}}
+.large{font-size:18px}
+.center{text-align:center}
+
+#container{
+    text-align: center;
+}
+button{
+    font-size: 2em;
+    background: #357C3C;
+    color: #fff;
+    border: 0.25rem solid #357C3C;
+    padding: 0.85em 0.75em;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+button:hover {
+    color: #357C3C;
+  }
+  button::after {
+    content: "";
+    background: #495371;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+  }
+  button[class^="slide"]::after {
+    transition: all 0.35s;
+  }
+  button[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+  }
+  button::after {
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+  }
+  table {
+    margin: auto;
+    
+}
+
+table, th, td {
+    border: 1px solid blue;
+    position: relative;
+}
+
+    img { width: 200px; height: 200px;
+     }
+
