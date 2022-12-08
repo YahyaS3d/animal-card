@@ -1,7 +1,6 @@
 # animal-card
 Animal cards generator<br/>
 Authored by Yahya Saad <br/>
-322944869<br/>
 ==Description==<br/>
 This website is basically an animal cards generator, the user can choose how many cards to generate: 4/8/10 - and the program will show the number of cards which the user select: each card has an animal name and it picture- imported from external heroku api for zoo animal, when the user pressed on the animal picture or name: a pop up message will show in front of the user which contains every information about this animal.<br/>
 ==Program external api links==<br/>
