@@ -12,7 +12,7 @@ This website is basically an animal cards generator, the user can choose how man
 index.html: main tags.<br/>
 style.css: design.<br/>
 script.js: main file which contains all ajax requist and jquery calls.<br/>
-get_current_date.php: to show the current server time.<br/>
+get_current_date.php: to show the current time. from outside server<br/>
 
 ==Input==<br/>
 the user will choose ho many cards want to display.<br/>
